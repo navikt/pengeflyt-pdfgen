@@ -19,10 +19,6 @@
         }
     }
 
-    @page :first {
-        margin-top: 1cm;
-    }
-
     * {
         font-family: "Source Sans Pro", SourceSansPro, Source_Sans_Pro, ArialSystem, sans-serif;
         color: #3e3832;
@@ -63,85 +59,80 @@
         background-color: #e0dae7;
     }
 
-    .sykmelding-seksjon .sykmeldt-navn {
-        font-size: 34px;
-        margin: 0;
-        margin-bottom: 10px;
-        padding: 0;
-        width: 17cm;
-    }
-
-    .arbeidsgivers-fodselsnummer {
-        font-size: 16px;
-        color: #7f756c;
-        margin-bottom: 2em;
-        padding: 0;
-    }
-
-    .sykmelding-til-arbeidsgiver h3 {
-        text-transform: uppercase;
-        margin-top: 0;
-        margin-bottom: 3px;
-        padding: 0;
-        font-size: 13px;
-        font-weight: normal;
-        color: #7f756c;
-    }
-
-    .sykmelding-nokkelopplysning {
-        margin-bottom: 15px;
-    }
-
-    .sykmelding-nokkelopplysning p {
-        margin-bottom: 0;
-    }
-
-    .sykmelding-nokkelopplysning p + h3 {
-        margin-top: 15px;
-    }
-
-    .resten {
-        page-break-before: avoid;
-    }
-
-    .resten h3 {
-        font-size: 15px;
+    h3, h4 {
         margin-bottom: 5px;
     }
 
-    .skravert {
-        background: #7f756c;
-        width: 5cm;
-        height: .6cm;
-        text-indent: -9999cm;
-        margin-bottom: 15px!important;
+    td {
+        font-size: 11px;
+        height: 15px;
+    }
+    .sec_col {
+        width: 100mm;
     }
 
-    .sykmelding-seksjon {
-        margin-bottom: .5cm;
-        border-bottom: 1px solid #7f756c;
+    @page {
+        margin-top: 60mm;
+        @top-center {
+            content: element(pageHeader);
+        }
+        @bottom-left {
+            content: element(footer);
+        }
+
+    }
+    @page :first {
+        margin-top: 40mm;
+        @top-center {
+            content: element(pageHeader);
+        }
+        @bottom-left {
+            content: element(footer);
+        }
+    }
+    .page-header {
+        position: running(pageHeader);
+        display: flex;
+        padding-bottom: 20px;
+        margin-left: 20mm;
+        margin-top: 10mm;
+    }
+
+    .content {
+        display: flex;
+        margin-left: 0;
+    }
+
+    .sumtable {
+        width: 165mm;
+        background: #f2f3f5;
+        border-bottom: 1px solid #e4e4e4;
+        border-top: 1px solid #e4e4e4;
+    }
+
+    .ytelse-table{
+        width: 167mm;
+        border: none;
+        border-collapse: collapse;
+        font-size: 11px;
+    }
+
+    .ytelse-block {
         page-break-inside: avoid;
+        break-inside: avoid;
+        page-break-before: auto;
     }
 
-    .sykmelding-seksjon h2 {
-        font-size: 17px;
-        margin-bottom: 10px;
-        margin-top: 0;
+    .ytelse-table th {
+        background: #e6f0ff;
     }
 
-    .strong {
-        font-weight: 700;
+    .sum-row {
+        background: #f2f3f5;
+        border-bottom: 1px solid #e4e4e4;
+        border-top: 1px solid #e4e4e4;
     }
 
-    .checkbox {
-        width: 11px;
-        height: 11px;
-        display: inline-block;
-    }
-
-    .luft {
-        margin-bottom: 15px;
-    }
 
     #footer {
         position: running(footer);
