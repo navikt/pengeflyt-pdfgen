@@ -11,7 +11,6 @@ docker run \
         -p 8080:8080 \
         -e DISABLE_PDF_GET=false \
         -e JDK_JAVA_OPTIONS \
-        -e ENABLE_HTML_ENDPOINT=true \
         -e DEV_MODE=true \
         -it \
         --rm \
