@@ -12,14 +12,46 @@
 <body class="body">
 <header class="page-header">
     <img class="nav-logo" src="{{ image "nav-logo.svg" }}" alt="NAV logo"/>
-    <h3>Oppgjørsrapport (K27)</h3>
-    <h4>Oversikt over utbetaling av refusjoner og feriepenger fra Nav til arbeidsgiver</h4>
+    <h3>Oppgjørsrapport arbeidsgiver – refusjoner fra Nav </h3>
     <div>
         <table class="table1">
             <tr>
+                <td class="header-column1"></td>
+                <td></td>
+                <td class="header-column2"></td>
+                <td>Utbetalingsdato:</td>
+                <td></td>
+                <td>{{utbetalingsDato}}</td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td>Rapport sendt:</td>
+                <td></td>
+                <td>{{rapportSendt}}</td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td>Konntonummer:</td>
+                <td></td>
+                <td>{{bedrift.kontonummer}}</td>
+            </tr>
+        </table>
+    </div>
+</header>
+<div id="footer">
+    <span>Oppgjørsrapport (K27) {{ bedrift.organisajonsnummer }}</span>
+    <span class="sidetall">side <span id="pagenumber"></span> av <span id="pagecount"></span></span>
+</div>
+
+<main class="content">
+    <img class="nav-logo" src="{{ image "nav-logo.svg" }}" alt="NAV logo"/>
+    <h3>Oppgjørsrapport arbeidsgiver – refusjoner fra Nav</h3>
+    <div>
+        <table>
+            <tr>
                 <td>Navn:</td>
                 <td></td>
-                <td class="sec_col">{{bedrift.navn}}</td>
+                <td class="header-column2">{{bedrift.navn}}</td>
                 <td>Utbetalingsdato:</td>
                 <td></td>
                 <td>{{utbetalingsDato}}</td>
@@ -42,15 +74,13 @@
             </tr>
         </table>
     </div>
-</header>
-<main class="content">
     <div>
         <table class="sumtable">
             <tr>
                 <td width="25%"></td>
-                <td class="sec_col">Totalt til utbetalingtil org.nr. {{bedrift.organisajonsnummer}},
+                <td class="header-column2">Totalt til utbetaling til org.nr. {{bedrift.organisajonsnummer}},
                     kontonr {{bedrift.kontonummer}}</td>
-                <td align="right">{{totalsum}}</td>
+                <td class="belop-column">{{totalsum}}</td>
             </tr>
         </table>
         {{#each ytelser}}
@@ -63,7 +93,7 @@
                         <th>Navn</th>
                         <th>Periode</th>
                         <th>Maksdato</th>
-                        <th>Beløp</th>
+                        <th class="belop-column">Beløp</th>
                     </tr>
                     {{#each utbetalinger}}
                         <tr>
@@ -72,24 +102,28 @@
                             <td>{{navn}}</td>
                             <td>{{periodeFra}} - {{periodeTil}}</td>
                             <td>{{maksDato}}</td>
-                            <td align="right">{{belop}}</td>
+                            <td class="belop-column">{{belop}}</td>
                         </tr>
                     {{/each}}
                     <tr class="sum-row">
                         <td colspan="2"></td>
                         <td>Sum {{ytelse}}</td>
                         <td colspan="2"></td>
-                        <td align="right">{{totalbelop}}</td>
+                        <td class="belop-column">{{totalbelop}}</td>
                     </tr>
                 </table>
             </div>
         {{/each}}
+        <table class="sumtable">
+            <tr>
+                <td width="25%"></td>
+                <td class="header-column2">Totalt til utbetaling til org.nr. {{bedrift.organisajonsnummer}},
+                    kontonr {{bedrift.kontonummer}}</td>
+                <td class="belop-column">{{totalsum}}</td>
+            </tr>
+        </table>
     </div>
 </main>
-<div id="footer">
-    <span>Oppgjørsrapport (K27) {{ bedrift.organisajonsnummer }}</span>
-    <span class="sidetall">side <span id="pagenumber"></span> av <span id="pagecount"></span></span>
-</div>
 
 </body>
 </html>
