@@ -10,9 +10,11 @@ on:
         type: choice
         options:
           - dev-gcp
-          - prod-gcp
+          #- prod-gcp
   push:
-    branches: [ main, dev ]
+    branches:
+      #- main
+      - dev
     paths-ignore:
       - '.github/**'
 
