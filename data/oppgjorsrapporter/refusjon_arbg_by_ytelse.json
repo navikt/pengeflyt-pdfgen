@@ -3,7 +3,7 @@
   "utbetalingsDato": "01.11.2025",
   "totalsum": "16 7394,00",
   "bedrift": {
-    "organisajonsnummer": "0087654321",
+    "orgnr": "0087654321",
     "navn": "Helsfyr stål og plastikk",
     "kontonummer": "1234.12.12345",
     "adresse": "Veien 24, 1234, VårBy"
@@ -14,7 +14,7 @@
       "ytelse": "Sykepenger",
       "utbetalinger": [
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -23,7 +23,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -32,7 +32,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678955",
           "navn": "naboen andersen",
           "periodeFra": "01.03.2025",
@@ -47,7 +47,7 @@
       "ytelse": "Foreldrepenger",
       "utbetalinger": [
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -56,7 +56,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678955",
           "navn": "naboen andersen",
           "periodeFra": "01.03.2025",
@@ -65,7 +65,7 @@
           "belop": "1 504,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -74,7 +74,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678955",
           "navn": "naboen andersen",
           "periodeFra": "01.03.2025",
@@ -89,7 +89,7 @@
       "ytelse": "Sykepenger",
       "utbetalinger": [
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -98,7 +98,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -107,7 +107,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678955",
           "navn": "naboen andersen",
           "periodeFra": "01.03.2025",
@@ -116,7 +116,7 @@
           "belop": "1 504,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -125,7 +125,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -134,7 +134,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678955",
           "navn": "naboen andersen",
           "periodeFra": "01.03.2025",
@@ -149,7 +149,7 @@
       "ytelse": "Foreldrepenger",
       "utbetalinger": [
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -158,7 +158,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678955",
           "navn": "naboen andersen",
           "periodeFra": "01.03.2025",
@@ -167,7 +167,7 @@
           "belop": "1 504,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -176,7 +176,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678955",
           "navn": "naboen andersen",
           "periodeFra": "01.03.2025",
@@ -185,7 +185,7 @@
           "belop": "1 504,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -194,7 +194,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678955",
           "navn": "naboen andersen",
           "periodeFra": "01.03.2025",
@@ -209,7 +209,7 @@
       "ytelse": "En annen ytelse",
       "utbetalinger": [
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -218,7 +218,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -227,7 +227,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -236,7 +236,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -245,7 +245,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -254,7 +254,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -263,7 +263,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -272,7 +272,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -281,7 +281,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -290,7 +290,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -299,7 +299,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -308,7 +308,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -317,7 +317,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -326,7 +326,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -335,7 +335,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -344,7 +344,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -353,7 +353,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -362,7 +362,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -371,7 +371,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -380,7 +380,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -389,7 +389,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -398,7 +398,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -407,7 +407,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -416,7 +416,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -425,7 +425,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -434,7 +434,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -443,7 +443,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -452,7 +452,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -461,7 +461,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -470,7 +470,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -479,7 +479,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -488,7 +488,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -497,7 +497,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -506,7 +506,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -515,7 +515,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -524,7 +524,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -533,7 +533,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -542,7 +542,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -551,7 +551,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -560,7 +560,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678955",
           "navn": "naboen andersen",
           "periodeFra": "01.03.2025",
@@ -575,7 +575,7 @@
       "ytelse": "Foreldrepenger",
       "utbetalinger": [
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -584,7 +584,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678955",
           "navn": "naboen andersen",
           "periodeFra": "01.03.2025",
@@ -593,7 +593,7 @@
           "belop": "1 504,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -602,7 +602,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678955",
           "navn": "naboen andersen",
           "periodeFra": "01.03.2025",
@@ -617,7 +617,7 @@
       "ytelse": "Sykepenger",
       "utbetalinger": [
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -626,7 +626,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -635,7 +635,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678955",
           "navn": "naboen andersen",
           "periodeFra": "01.03.2025",
@@ -644,7 +644,7 @@
           "belop": "1 504,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678909",
           "navn": "du og jeg andersen",
           "periodeFra": "01.01.2025",
@@ -653,7 +653,7 @@
           "belop": "4 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "11211111111",
           "navn": "Pål egg",
           "periodeFra": "01.05.2025",
@@ -662,7 +662,7 @@
           "belop": "1 234,00"
         },
         {
-          "underenhet": "009876542",
+          "orgnr": "009876542",
           "fnr": "12345678955",
           "navn": "naboen andersen",
           "periodeFra": "01.03.2025",
