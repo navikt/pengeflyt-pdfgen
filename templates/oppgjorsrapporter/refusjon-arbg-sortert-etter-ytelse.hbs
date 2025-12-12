@@ -5,14 +5,13 @@
     <meta name="description" content="Refusjon arbeidsgiver"/>
     <meta name="author" content="pengeflyt-pdfgen"/>
     <meta name="subject" content="Refusjon arbeidsgiver"/>
-    {{#block 'oppgjorsrapporter/refusjon_arbeidsgiver_style' }}
+    {{#block 'oppgjorsrapporter/refusjon-arbeidsgiver-style' }}
     {{/block}}
     <title>Refusjon oppgjorstapport</title>
 </head>
 <body class="body">
 <header class="page-header">
     <img class="nav-logo" src="{{ image "nav-logo.svg" }}" alt="NAV logo"/>
-    <h3>Oppgjørsrapport arbeidsgiver – refusjoner fra Nav </h3>
     <div>
         <table class="table1">
             <tr>
@@ -25,21 +24,15 @@
             </tr>
             <tr>
                 <td colspan="3"></td>
-                <td>Rapport sendt:</td>
-                <td></td>
-                <td>{{rapportSendt}}</td>
-            </tr>
-            <tr>
-                <td colspan="3"></td>
                 <td>Konntonummer:</td>
                 <td></td>
-                <td>{{bedrift.kontonummer}}</td>
+                <td>{{bedrift.kontonummer.formattert}}</td>
             </tr>
         </table>
     </div>
 </header>
 <div id="footer">
-    <span>Oppgjørsrapport (K27) {{ bedrift.organisajonsnummer }}</span>
+    <span>Oppgjørsrapport (K27) {{ bedrift.orgnr.formattert }}</span>
     <span class="sidetall">side <span id="pagenumber"></span> av <span id="pagecount"></span></span>
 </div>
 
@@ -67,10 +60,10 @@
             <tr>
                 <td>Organisasjonsnr:</td>
                 <td></td>
-                <td>{{bedrift.organisajonsnummer}}</td>
+                <td>{{bedrift.orgnr.formattert}}</td>
                 <td>Konntonummer:</td>
                 <td></td>
-                <td>{{bedrift.kontonummer}}</td>
+                <td>{{bedrift.kontonummer.formattert}}</td>
             </tr>
         </table>
     </div>
@@ -78,38 +71,38 @@
         <table class="sumtable">
             <tr>
                 <td width="25%"></td>
-                <td class="header-column2">Totalt til utbetaling til org.nr. {{bedrift.organisajonsnummer}},
-                    kontonr {{bedrift.kontonummer}}</td>
-                <td class="belop-column">{{totalsum}}</td>
+                <td class="header-column2">Totalt til utbetaling til org.nr. {{bedrift.orgnr.formattert}},
+                    kontonr {{bedrift.kontonummer.formattert}}</td>
+                <td class="belop-column">{{totalsum.formattert}}</td>
             </tr>
         </table>
-        {{#each underenheter}}
+        {{#each ytelser}}
             <div class="ytelse-block">
-                <h4>Underenhet {{orgnr}}</h4>
+                <h4>{{ytelse}} (ytelse)</h4>
                 <table class="ytelse-table">
                     <tr>
-                        <th>Fnr</th>
-                        <th class="navn_column">navn</th>
+                        <th>Underenhet</th>
+                        <th>FNR</th>
+                        <th>Navn</th>
                         <th>Periode</th>
                         <th>Maksdato</th>
-                        <th>Ytelse</th>
                         <th class="belop-column">Beløp</th>
                     </tr>
-                    {{#each utbetalinger}}
+                    {{#each posteringer}}
                         <tr>
-                            <td>{{fnr}}</td>
+                            <td>{{orgnr.formattert}}</td>
+                            <td>{{fnr.formattert}}</td>
                             <td>{{navn}}</td>
                             <td>{{periodeFra}} - {{periodeTil}}</td>
                             <td>{{maksDato}}</td>
-                            <td>{{ytelse}}</td>
-                            <td class="belop-column">{{belop}}</td>
+                            <td class="belop-column">{{belop.formattert}}</td>
                         </tr>
                     {{/each}}
                     <tr class="sum-row">
                         <td colspan="2"></td>
-                        <td>Sum for {{orgnr}}</td>
+                        <td>Sum {{ytelse}}</td>
                         <td colspan="2"></td>
-                        <td class="belop-column">{{totalbelop}}</td>
+                        <td class="belop-column">{{totalbelop.formattert}}</td>
                     </tr>
                 </table>
             </div>
@@ -117,9 +110,9 @@
         <table class="sumtable">
             <tr>
                 <td width="25%"></td>
-                <td class="header-column2">Totalt til utbetaling til org.nr. {{bedrift.organisajonsnummer}},
-                    kontonr {{bedrift.kontonummer}}</td>
-                <td class="belop-column">{{totalsum}}</td>
+                <td class="header-column2">Totalt til utbetaling til org.nr. {{bedrift.orgnr.formattert}},
+                    kontonr {{bedrift.kontonummer.formattert}}</td>
+                <td class="belop-column">{{totalsum.formattert}}</td>
             </tr>
         </table>
     </div>

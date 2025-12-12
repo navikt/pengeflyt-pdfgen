@@ -17,6 +17,6 @@ har Docker installert. I en typisk utviklingssituasjon vil man endre på malfile
 effekten av endringer der kan ses ved å gjøre et GET-kall til URL-en som man i produksjon vil gjøre `POST`-kall til.
 
 Når man har kjørt `run_development.sh` kan man for eksempel gå til
-[http://localhost:8080/api/v1/genpdf/oppgjorsrapporter/refusjon_arbeidsgiver](http://localhost:8080/api/v1/genpdf/oppgjorsrapporter/refusjon_arbeidsgiver) for å se hva kombinasjonen av
-`templates/oppgjorsrapporter/refusjon_arbeidsgiver.hbs` og `data/oppgjorsrapporter/refusjon_arbeidsgiver.json` resulterer i. Man trenger ikke å
+[http://localhost:8080/api/v1/genpdf/oppgjorsrapporter/refusjon-arbg-sortert-etter-ytelse](http://localhost:8080/api/v1/genpdf/oppgjorsrapporter/refusjon-arbg-sortert-etter-ytelse) for å se hva kombinasjonen av
+`templates/oppgjorsrapporter/refusjon-arbg-sortert-etter-ytelser.hbs` og `data/oppgjorsrapporter/refusjon-arbg-sortert-etter-ytelse.json` resulterer i. Man trenger ikke å
 restarte `run_development.sh` når man har gjort endringer, en enkel refresh av siden vil vise resultatet av endringene.
