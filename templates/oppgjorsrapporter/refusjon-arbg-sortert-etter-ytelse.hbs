@@ -7,7 +7,7 @@
     <meta name="subject" content="Refusjon arbeidsgiver"/>
     {{#block 'oppgjorsrapporter/refusjon-arbeidsgiver-style' }}
     {{/block}}
-    <title>Refusjon oppgjorstapport</title>
+    <title>Oppgjørsrapport arbeidsgiver - refusjoner fra Nav</title>
 </head>
 <body class="body">
 <header class="page-header">
@@ -24,7 +24,7 @@
             </tr>
             <tr>
                 <td colspan="3"></td>
-                <td>Konntonummer:</td>
+                <td>Kontonummer:</td>
                 <td></td>
                 <td>{{bedrift.kontonummer.formattert}}</td>
             </tr>
@@ -32,7 +32,7 @@
     </div>
 </header>
 <div id="footer">
-    <span>Oppgjørsrapport (K27) {{ bedrift.orgnr.formattert }}</span>
+    <span>Oppgjørsrapport arbeidsgiver - refusjoner fra Nav {{ bedrift.orgnr.formattert }}</span>
     <span class="sidetall">side <span id="pagenumber"></span> av <span id="pagecount"></span></span>
 </div>
 
@@ -61,7 +61,7 @@
                 <td>Organisasjonsnr:</td>
                 <td></td>
                 <td>{{bedrift.orgnr.formattert}}</td>
-                <td>Konntonummer:</td>
+                <td>Kontonummer:</td>
                 <td></td>
                 <td>{{bedrift.kontonummer.formattert}}</td>
             </tr>
