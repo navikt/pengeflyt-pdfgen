@@ -26,9 +26,6 @@ spec:
   resources:
     limits:
       memory: 1536Mi
-    requests:
-      cpu: 100m
-      memory: 128Mi
   env:
     - name: JDK_JAVA_OPTIONS
       value: "-XX:InitialRAMPercentage=35 -XX:MaxRAMPercentage=65 -XX:+ExitOnOutOfMemoryError"
