@@ -10,6 +10,9 @@ metadata:
 spec:
   image: {{ image }}
   port: 8080
+  env:
+    - name: JDK_JAVA_OPTIONS
+      value: "-XX:InitialRAMPercentage=35 -XX:MaxRAMPercentage=65 -XX:+ExitOnOutOfMemoryError"
   replicas:
     min: {{replicas_min}}
     max: {{replicas_max}}
