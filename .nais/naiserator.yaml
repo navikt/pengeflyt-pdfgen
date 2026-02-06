@@ -3,19 +3,16 @@ kind: "Application"
 metadata:
   name: pengeflyt-pdfgen
   namespace: okonomi
-  annotations:
-    nginx.ingress.kubernetes.io/proxy-body-size: "20M"
   labels:
     team: okonomi
 spec:
+  observability:
+    autoInstrumentation:
+      enabled: true
+      runtime: java
   image: {{ image }}
-  port: 8080
   replicas:
-    min: {{replicas_min}}
-    max: {{replicas_max}}
-    scalingStrategy:
-      cpu:
-        thresholdPercentage: 80
+    min: 2
   liveness:
     path: /internal/is_alive
   readiness:
@@ -28,18 +25,14 @@ spec:
     path: /internal/prometheus
   resources:
     limits:
-      memory: {{memory}}
+      cpu: 200m
+      memory: 1536Mi
     requests:
-      cpu: {{cpu}}
-      memory: {{memory}}
-  observability:
-    autoInstrumentation:
-      enabled: true
-      runtime: java
-    logging:
-      destinations:
-        - id: loki
-        - id: elastic
+      cpu: 200m
+      memory: 1536Mi
+  env:
+    - name: JDK_JAVA_OPTIONS
+      value: "-XX:InitialRAMPercentage=35 -XX:MaxRAMPercentage=65 -XX:+ExitOnOutOfMemoryError"
   accessPolicy:
     inbound:
       rules:
