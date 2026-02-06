@@ -28,7 +28,11 @@ spec:
       memory: 1536Mi
   env:
     - name: JDK_JAVA_OPTIONS
-      value: "-XX:InitialRAMPercentage=35 -XX:MaxRAMPercentage=65 -XX:+ExitOnOutOfMemoryError"
+      # "-Dlogback.configurationFile=logback.xml" kommer fra https://github.com/navikt/pdfgen/blob/main/Dockerfile
+      value: >-
+        -Dlogback.configurationFile=logback.xml
+        -Xmx1g
+        -XX:+ExitOnOutOfMemoryError
   accessPolicy:
     inbound:
       rules:
