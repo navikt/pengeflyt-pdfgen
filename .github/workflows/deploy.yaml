@@ -53,7 +53,7 @@ jobs:
     secrets: inherit
     with:
       cluster: dev-gcp
-      resource: .nais/naiserator.yaml
+      resource: .nais/naiserator-dev.yaml
       image: ${{ needs.build.outputs.image }}
 
 #  deploy_to_prod:
