@@ -76,7 +76,7 @@
                 <td>{{bedrift.orgnr}}</td>
             </tr>
             <tr>
-                <td >TSS id:</td>
+                <td>TSS id:</td>
                 <td></td>
                 <td>{{bedrift.tssid}}</td>
             </tr>
@@ -89,27 +89,36 @@
                 <h4>{{navn}}</h4>
                 <table class="ytelse-table">
                     <tr>
+                        <th>Arkivref</th>
+                        <th>Sakreferanse</th>
                         <th>Fnr</th>
                         <th class="navn_column">navn</th>
-                        <th>Periode</th>
-                        <th>Maksdato</th>
-                        <th>Ytelse</th>
+                        <th>Ytelse f.o.m. - t.o.m.</th>
                         <th class="belop-column">Beløp</th>
                     </tr>
-                    {{#each utbetalinger}}
-                        <tr>
-                            <td>{{fnr}}</td>
-                            <td>{{navn}}</td>
-                            <td>{{periodeFra}} - {{periodeTil}}</td>
-                            <td>{{maksDato}}</td>
-                            <td>{{ytelse}}</td>
-                            <td class="belop-column">{{belop}}</td>
+                    {{#each arkivrefs}}
+                        {{#each trekk}}
+                            <tr>
+                                <td>{{arkivref}}</td>
+                                <td>{{saksreferanse}}</td>
+                                <td>{{fnr}}</td>
+                                <td>{{navn}}</td>
+                                <td>{{periodeFra}} - {{periodeTil}}</td>
+                                <td class="belop-column">{{belop}}</td>
+                            </tr>
+                        {{/each}}
+
+                        <tr class="sum-row">
+                            <td colspan="3"></td>
+                            <td>Delsum arkivref {{arkivref}}</td>
+                            <td></td>
+                            <td class="belop-column">{{refnrsum}}</td>
                         </tr>
                     {{/each}}
                     <tr class="sum-row">
-                        <td colspan="2"></td>
-                        <td>Sum for {{navn}}</td>
-                        <td colspan="2"></td>
+                        <td colspan="3"></td>
+                        <td>Delsum enhet {{navn}}</td>
+                        <td></td>
                         <td class="belop-column">{{totalbelop}}</td>
                     </tr>
                 </table>
@@ -117,9 +126,8 @@
         {{/each}}
         <table class="sumtable">
             <tr>
-                <td width="25%"></td>
-                <td class="header-column2">Totalt til utbetaling til org.nr. {{bedrift.organisajonsnummer}},
-                    kontonr {{bedrift.kontonummer}}</td>
+                <td></td>
+                <td class="header-column2">Totalsum kreditor.</td>
                 <td class="belop-column">{{totalsum}}</td>
             </tr>
         </table>

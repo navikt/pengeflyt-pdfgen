@@ -1,8 +1,7 @@
-
 {
   "rapportSendt": "31.10.2025",
   "utbetalingsDato": "28.10.2025",
-  "totalsum": "16 238,68",
+  "totalsum": "28 476,00",
   "periode": {
     "fra": "01.01.2025",
     "til": "31.03.2025"
@@ -17,60 +16,92 @@
   "enheter": [
     {
       "navn": "Nav økonomi stønad",
-      "totalbelop": "5 738,68",
+      "totalbelop": "11 476,00",
       "orgnr": "009876111",
-      "utbetalinger": [
+      "arkivrefs": [
         {
-          "ytelse": "Foreldrepenger",
-          "fnr": "12345678111",
-          "navn": "Anders Andersen",
-          "periodeFra": "01.01.2025",
-          "periodeTil": "31.01.2025",
-          "maksDato": "31.07.2026",
-          "belop": "4 234,00"
+          "arkivref": "111111111",
+          "refnrsum": " 5 738,00",
+          "trekk": [
+            {
+              "fnr": "12345678111",
+              "navn": "Anders Andersen",
+              "saksreferanse": "tekst til saksrefereanse",
+              "periodeFra": "01.01.2025",
+              "periodeTil": "31.01.2025",
+              "belop": "4 234,00"
+            },
+            {
+              "fnr": "12345678222",
+              "navn": "Birte Birtesen",
+              "saksreferanse": "tekst til saksrefereanse",
+              "periodeFra": "01.03.2025",
+              "periodeTil": "31.03.2025",
+              "belop": "1 504,68"
+            }
+          ]
         },
         {
-          "ytelse": "Sykepenger",
-          "fnr": "12345678222",
-          "navn": "Birte Birtesen",
-          "periodeFra": "01.03.2025",
-          "periodeTil": "31.03.2025",
-          "maksDato": "31.07.2026",
-          "belop": "1 504,68"
+          "arkivref": "222222222",
+          "refnrsum": " 5 738,00",
+          "trekk": [
+            {
+              "fnr": "12345678111",
+              "navn": "Anders Andersen",
+              "saksreferanse": "tekst til saksrefereanse",
+              "periodeFra": "01.01.2025",
+              "periodeTil": "31.01.2025",
+              "belop": "4 234,00"
+            },
+            {
+              "fnr": "12345678222",
+              "navn": "Birte Birtesen",
+              "saksreferanse": "tekst til saksrefereanse",
+              "periodeFra": "01.03.2025",
+              "periodeTil": "31.03.2025",
+              "belop": "1 504,68"
+            }
+          ]
         }
       ]
     },
     {
       "navn": "Nav økonomi pensjon",
-      "totalbelop": "10 500,00",
+      "totalbelop": "17 000,00",
       "orgnr": "009876222",
-      "utbetalinger": [
+      "arkivrefs": [
         {
-          "ytelse": "Foreldrepenger",
-          "fnr": "12345678111",
-          "navn": "Anders Andersen",
-          "periodeFra": "01.01.2025",
-          "periodeTil": "31.01.2025",
-          "maksDato": "31.07.2026",
-          "belop": "6 500,00"
-        },
-        {
-          "ytelse": "Sykepenger",
-          "fnr": "12345678222",
-          "navn": "Birte Birtesen",
-          "periodeFra": "01.03.2025",
-          "periodeTil": "31.03.2025",
-          "maksDato": "31.07.2026",
-          "belop": "4 000,00"
-        },
-        {
-          "ytelse": "Foreldrepenger",
-          "fnr": "12345678111",
-          "navn": "Anders Andersen",
-          "periodeFra": "01.01.2025",
-          "periodeTil": "31.01.2025",
-          "maksDato": "31.07.2026",
-          "belop": "6 500,00"
+          "arkivref": "111111111",
+          "refnrsum": " 17 000,00",
+          "trekk": [
+            {
+              "fnr": "12345678111",
+              "navn": "Anders Andersen",
+              "saksreferanse": "tekst til saksrefereanse",
+              "periodeFra": "01.01.2025",
+              "periodeTil": "31.01.2025",
+              "maksDato": "31.07.2026",
+              "belop": "6 500,00"
+            },
+            {
+              "fnr": "12345678222",
+              "navn": "Birte Birtesen",
+              "saksreferanse": "tekst til saksrefereanse",
+              "periodeFra": "01.03.2025",
+              "periodeTil": "31.03.2025",
+              "maksDato": "31.07.2026",
+              "belop": "4 000,00"
+            },
+            {
+              "fnr": "12345678111",
+              "navn": "Anders Andersen",
+              "saksreferanse": "tekst til saksrefereanse",
+              "periodeFra": "01.01.2025",
+              "periodeTil": "31.01.2025",
+              "maksDato": "31.07.2026",
+              "belop": "6 500,00"
+            }
+          ]
         }
       ]
     }
