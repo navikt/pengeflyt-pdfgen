@@ -2,9 +2,9 @@ apiVersion: "nais.io/v1alpha1"
 kind: "Application"
 metadata:
   name: pengeflyt-pdfgen
-  namespace: okonomi
+  namespace: oppgjorsrapporter
   labels:
-    team: okonomi
+    team: oppgjorsrapporter
 spec:
   observability:
     autoInstrumentation:
@@ -38,3 +38,5 @@ spec:
     inbound:
       rules:
         - application: sokos-oppgjorsrapporter
+        - application: sokos-oppgjorsrapporter
+          namespace: okonomi
