@@ -1,105 +1,106 @@
 {
-  "rapportSendt": "31.10.2025",
-  "utbetalingsDato": "28.10.2025",
-  "totalsum": "28 476,00",
+  "rapportSendt": "25-02-2026",
+  "utbetalingsDato": "17-02-2026",
+  "totalsum": "2 256,00",
   "periode": {
-    "fra": "01.01.2025",
-    "til": "31.03.2025"
+    "fra": "01-02-2026",
+    "til": "28-02-2026"
   },
   "bedrift": {
-    "orgnr": "974 600 019",
-    "tssid": "1234123456",
-    "navn": "Helsfyr stål og plastikk",
-    "kontonummer": "0247 03 03400",
-    "adresse": "Veien 24, 1234, VårBy"
+    "orgnr": "999999999",
+    "tssid": "80000815306",
+    "navn": "Test Organisasjon",
+    "kontonummer": "42141415926",
+    "adresse": "Testveien 1, 0123 Oslo"
   },
   "enheter": [
     {
-      "navn": "Nav økonomi stønad",
-      "totalbelop": "11 476,00",
-      "orgnr": "009876111",
-      "arkivrefs": [
+      "navn": "NØS",
+      "totalbelop": "752,00",
+      "orgnr": "00921221967",
+      "arkivreferanser": [
         {
-          "arkivref": "111111111",
-          "refnrsum": " 5 738,00",
+          "arkivref": "235753327",
+          "refnrsum": "752,00",
           "trekk": [
             {
-              "fnr": "12345678111",
-              "navn": "Anders Andersen",
-              "saksreferanse": "tekst til saksrefereanse",
-              "periodeFra": "01.01.2025",
-              "periodeTil": "31.01.2025",
-              "belop": "4 234,00"
+              "fnr": "15267807496",
+              "navn": "DONALD DUCK MED VENNER",
+              "saksreferanse": "Molde barnevern",
+              "periodeFra": "20260201",
+              "periodeTil": "20260228",
+              "belop": "752.00",
+              "tssId": "80000815306"
             },
             {
-              "fnr": "12345678222",
-              "navn": "Birte Birtesen",
-              "saksreferanse": "tekst til saksrefereanse",
-              "periodeFra": "01.03.2025",
-              "periodeTil": "31.03.2025",
-              "belop": "1 504,68"
+              "fnr": "15267807496",
+              "navn": "DONALD DUCK MED VENNER",
+              "saksreferanse": "Molde barnevern",
+              "periodeFra": "20260201",
+              "periodeTil": "20260228",
+              "belop": "752.00",
+              "tssId": "80000815306"
             }
           ]
         },
         {
-          "arkivref": "222222222",
-          "refnrsum": " 5 738,00",
+          "arkivref": "235750560",
+          "refnrsum": "1 504,00",
           "trekk": [
             {
-              "fnr": "12345678111",
-              "navn": "Anders Andersen",
-              "saksreferanse": "tekst til saksrefereanse",
-              "periodeFra": "01.01.2025",
-              "periodeTil": "31.01.2025",
-              "belop": "4 234,00"
+              "fnr": "19486545678",
+              "navn": "JJJJJCCCCCBBB AAAAAAAAAAA",
+              "saksreferanse": "Barnevernstjenesten",
+              "periodeFra": "20260201",
+              "periodeTil": "20260228",
+              "belop": "752.00",
+              "tssId": "80000818309"
             },
             {
-              "fnr": "12345678222",
-              "navn": "Birte Birtesen",
-              "saksreferanse": "tekst til saksrefereanse",
-              "periodeFra": "01.03.2025",
-              "periodeTil": "31.03.2025",
-              "belop": "1 504,68"
+              "fnr": "29667789766",
+              "navn": "BURGER MED POMMES FRITES",
+              "saksreferanse": "Frivillig forvaltning, H. Berg",
+              "periodeFra": "20260201",
+              "periodeTil": "20260228",
+              "belop": "752.00",
+              "tssId": "80000818309"
             }
           ]
         }
       ]
     },
     {
-      "navn": "Nav økonomi pensjon",
-      "totalbelop": "17 000,00",
-      "orgnr": "009876222",
-      "arkivrefs": [
+      "navn": "NØP",
+      "totalbelop": "752,00",
+      "orgnr": "00921221967",
+      "arkivreferanser": [
         {
-          "arkivref": "111111111",
-          "refnrsum": " 17 000,00",
+          "arkivref": "235753327",
+          "refnrsum": "752,00",
           "trekk": [
             {
-              "fnr": "12345678111",
-              "navn": "Anders Andersen",
-              "saksreferanse": "tekst til saksrefereanse",
-              "periodeFra": "01.01.2025",
-              "periodeTil": "31.01.2025",
-              "maksDato": "31.07.2026",
-              "belop": "6 500,00"
-            },
+              "fnr": "15267807496",
+              "navn": "DONALD DUCK MED VENNER",
+              "saksreferanse": "Molde barnevern",
+              "periodeFra": "20260201",
+              "periodeTil": "20260228",
+              "belop": "752.00",
+              "tssId": "80000815306"
+            }
+          ]
+        },
+        {
+          "arkivref": "235750560",
+          "refnrsum": "1 504,00",
+          "trekk": [
             {
-              "fnr": "12345678222",
-              "navn": "Birte Birtesen",
-              "saksreferanse": "tekst til saksrefereanse",
-              "periodeFra": "01.03.2025",
-              "periodeTil": "31.03.2025",
-              "maksDato": "31.07.2026",
-              "belop": "4 000,00"
-            },
-            {
-              "fnr": "12345678111",
-              "navn": "Anders Andersen",
-              "saksreferanse": "tekst til saksrefereanse",
-              "periodeFra": "01.01.2025",
-              "periodeTil": "31.01.2025",
-              "maksDato": "31.07.2026",
-              "belop": "6 500,00"
+              "fnr": "15267807496",
+              "navn": "DONALD DUCK MED VENNER",
+              "saksreferanse": "Molde barnevern",
+              "periodeFra": "20260201",
+              "periodeTil": "20260228",
+              "belop": "752.00",
+              "tssId": "80000815306"
             }
           ]
         }

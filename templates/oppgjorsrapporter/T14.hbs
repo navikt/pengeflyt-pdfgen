@@ -35,12 +35,6 @@
                 <td></td>
                 <td>{{bedrift.kontonummer}}</td>
             </tr>
-            <tr>
-                <td colspan="3"></td>
-                <td>TSS-id:</td>
-                <td></td>
-                <td>{{bedrift.tssid}}</td>
-            </tr>
         </table>
     </div>
 </header>
@@ -75,11 +69,6 @@
                 <td></td>
                 <td>{{bedrift.orgnr}}</td>
             </tr>
-            <tr>
-                <td>TSS id:</td>
-                <td></td>
-                <td>{{bedrift.tssid}}</td>
-            </tr>
 
         </table>
     </div>
@@ -99,7 +88,7 @@
                     {{#each arkivreferanser}}
                         {{#each trekk}}
                             <tr>
-                                <td>{{tssid}} - {{arkivref}}</td>
+                                <td>{{tssId}} - {{arkivref}}</td>
                                 <td>{{saksreferanse}}</td>
                                 <td>{{fnr}}</td>
                                 <td>{{navn}}</td>
@@ -117,7 +106,7 @@
                     {{/each}}
                     <tr class="sum-row">
                         <td colspan="3"></td>
-                        <td>Delsum enhet {{navn}}</td>
+                        <td>Sum enhet {{navn}}</td>
                         <td></td>
                         <td class="belop-column">{{totalbelop}}</td>
                     </tr>
