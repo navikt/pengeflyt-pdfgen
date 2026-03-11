@@ -3,14 +3,14 @@
   "utbetalingsDato": "17-02-2026",
   "totalsum": "2 256,00",
   "periode": {
-    "fra": "01-02-2026",
-    "til": "28-02-2026"
+    "fra": "01.02.2026",
+    "til": "28.02.2026"
   },
   "bedrift": {
     "orgnr": "999999999",
     "tssid": "80000815306",
     "navn": "Test Organisasjon",
-    "kontonummer": "42141415926",
+    "kontonummer": "4214.14.15926",
     "adresse": "Testveien 1, 0123 Oslo"
   },
   "enheter": [
@@ -27,18 +27,18 @@
               "fnr": "15267807496",
               "navn": "DONALD DUCK MED VENNER",
               "saksreferanse": "Molde barnevern",
-              "periodeFra": "20260201",
-              "periodeTil": "20260228",
-              "belop": "752.00",
+              "periodeFra": "2026.02.01",
+              "periodeTil": "2026.02.28",
+              "belop": "752,00",
               "tssId": "80000815306"
             },
             {
               "fnr": "15267807496",
               "navn": "DONALD DUCK MED VENNER",
               "saksreferanse": "Molde barnevern",
-              "periodeFra": "20260201",
-              "periodeTil": "20260228",
-              "belop": "752.00",
+              "periodeFra": "2026.02.01",
+              "periodeTil": "2026.02.28",
+              "belop": "752,00",
               "tssId": "80000815306"
             }
           ]
@@ -51,18 +51,18 @@
               "fnr": "19486545678",
               "navn": "JJJJJCCCCCBBB AAAAAAAAAAA",
               "saksreferanse": "Barnevernstjenesten",
-              "periodeFra": "20260201",
-              "periodeTil": "20260228",
-              "belop": "752.00",
+              "periodeFra": "2026.02.01",
+              "periodeTil": "2026.02.28",
+              "belop": "752,00",
               "tssId": "80000818309"
             },
             {
               "fnr": "29667789766",
               "navn": "BURGER MED POMMES FRITES",
               "saksreferanse": "Frivillig forvaltning, H. Berg",
-              "periodeFra": "20260201",
-              "periodeTil": "20260228",
-              "belop": "752.00",
+              "periodeFra": "2026.02.01",
+              "periodeTil": "2026.02.28",
+              "belop": "752,00",
               "tssId": "80000818309"
             }
           ]
@@ -82,9 +82,9 @@
               "fnr": "15267807496",
               "navn": "DONALD DUCK MED VENNER",
               "saksreferanse": "Molde barnevern",
-              "periodeFra": "20260201",
-              "periodeTil": "20260228",
-              "belop": "752.00",
+              "periodeFra": "2026.02.01",
+              "periodeTil": "2026.02.28",
+              "belop": "752,00",
               "tssId": "80000815306"
             }
           ]
@@ -97,9 +97,9 @@
               "fnr": "15267807496",
               "navn": "DONALD DUCK MED VENNER",
               "saksreferanse": "Molde barnevern",
-              "periodeFra": "20260201",
-              "periodeTil": "20260228",
-              "belop": "752.00",
+              "periodeFra": "2026.02.01",
+              "periodeTil": "2026.02.28",
+              "belop": "752,00",
               "tssId": "80000815306"
             }
           ]
