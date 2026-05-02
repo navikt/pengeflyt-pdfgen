@@ -2,12 +2,12 @@
 <html lang="no">
 <head>
     <meta charset="UTF-8"/>
-    <meta name="description" content="Trekkoppgjør Kreditor"/>
+    <meta name="description" content="Trekkoppgjør fra Nav"/>
     <meta name="author" content="pengeflyt-pdfgen"/>
-    <meta name="subject" content="Trekkoppgjør Kreditor"/>
+    <meta name="subject" content="Trekkoppgjør fra Nav"/>
     {{#block 'oppgjorsrapporter/T14-style' }}
     {{/block}}
-    <title>Oppgjørsrapport arbeidsgiver - refusjoner fra Nav</title>
+    <title>Trekkoppgjør fra Nav</title>
 </head>
 <body class="body">
 <header class="page-header">
@@ -33,7 +33,7 @@
     </div>
 </header>
 <div id="footer">
-    <span>Trekkoppgjørsrapport (T14) {{ bedrift.organisajonsnummer }}</span>
+    <span>Trekkoppgjørsrapport (T14) {{ bedrift.orgnr }}</span>
     <span class="sidetall">side <span id="pagenumber"></span> av <span id="pagecount"></span></span>
 </div>
 
