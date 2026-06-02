@@ -25,8 +25,11 @@ spec:
     enabled: true
     path: /internal/prometheus
   resources:
-    limits:
+    requests:
+      cpu: 148m
       memory: 1536Mi
+    limits:
+      memory: 2048Mi
   env:
     - name: JDK_JAVA_OPTIONS
       # "-Dlogback.configurationFile=logback.xml" kommer fra https://github.com/navikt/pdfgen/blob/main/Dockerfile
